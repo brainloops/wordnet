@@ -22,12 +22,5 @@ unzip nltk-2.0.1rc1.zip
 cd nltk-2.0.1rc1
 sudo python setup.py install
 
-echo '***** you still need to grab nltk data, see instructions in this file *****'
-
-# get the ntlk data
-# open up a python terminal
-# >>> import nltk
-# >>> nltk.download()
-# got to corpora tab and select 'wordnet', click download
-# your done, enjoy!
+echo '***** you still need to grab nltk data, see instructions in README *****'
 

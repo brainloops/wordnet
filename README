@@ -1,4 +1,16 @@
 This is a simple wrapper around wordnet to extract definitions via a RESTful api.
-You'll need python installed + the following dependencies.
+You'll need python installed + the following dependencies. 
 
+cherrypy
+pyaml
+nltk
 
+I created an install.sh for my particular environment (OSX 10.6.7). You can use it as an example of installing the dependencies.
+
+You'll then need to get the actual wordnet corpus, nltk makes it easy with an included gui. Here's how.
+
+open up a python terminal
+>>> import nltk
+>>> nltk.download()
+
+got to corpora tab and select 'wordnet', click download
